@@ -1,0 +1,63 @@
+h1 {
+    color: white;
+    margin-left: 35%;
+}
+
+input {
+    margin-left: 15%;
+    /* margin-top: -30%; */
+    width: 20vw;
+    height: 3vh
+}
+
+.submitButton {
+    background-color: #1CB288;
+    width: 20vw;
+    height: 6vh;
+    margin-left: 15%;
+    border: none;
+    color: white;
+
+}
+
+select {
+    width: 20vw;
+    height: 3vh;
+    margin-left: 15%;
+}
+
+
+.content{
+    border-radius: 30%;
+    border: 1px solid white;
+    width: 20vw;
+    height: 30vh;
+    margin: auto;
+    margin-top: 20%;
+    background-color: antiquewhite;
+}
+
+h2{
+    color: black;
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 18%;
+    animation-name: animation1;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    
+}
+@keyframes animation1 {
+    0%{
+       
+        font-size: 20px;
+    }
+    50%{
+        
+        font-size: 20px;
+    }
+    100%{
+        
+        font-size: 30px;
+    } 
+}
